@@ -4,7 +4,7 @@ pipeline {
         stage('git checkout'){
             steps{
                 git branch: 'master',
-                url: 'https://github.com/demuduraviteja/jenkinshandsonmvnproject.git'
+                url: 'https://github.com/sai0000/jenkinshandsonmvnproject.git'
             }
         }
         stage('Maven Build'){
